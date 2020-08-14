@@ -103,12 +103,12 @@ h1, h2, h3, h4, h5,
     padding: 4em 0; }
 
 .site-section2 {
-  padding: 5em 0; }
-  @media (min-width: 768px) {
+  padding: 2.5em 0; }
+  @media (min-width: 900px) {
     .site-section2 {
-      padding: 8em 0; } }
+      padding: 10em 0; } }
   .site-section2.site-section2-sm {
-    padding: 5em 0; }
+    padding: 4em 0; }
 
 .site-section-heading {
   position: relative;
@@ -175,6 +175,10 @@ h1, h2, h3, h4, h5,
 
 .text-black-opacity-05 {
   color: rgba(0, 0, 0, 0.5); }
+
+.text-orange {
+    color: #f16821;
+}
 
 .hover-bg-enlarge {
   overflow: hidden;
@@ -436,6 +440,9 @@ h1, h2, h3, h4, h5,
       color: #000; }
       .site-navbar.scrolled .site-navigation .site-menu li a.active {
         color: #f16821; }
+.site-menu #blog a {
+    color: #f16821;
+}
     .site-navbar.scrolled .site-logo a {
       color: #000 !important; }
 
