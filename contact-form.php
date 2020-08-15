@@ -2,8 +2,8 @@
 
 if (isset($_POST['submit'])) {
     $name = $_POST['fname']; //   + $_POST['lname']
+    $subject = $_POST['subject'];
     $mailFrom = $_POST['email'];
-    $subject = $_POST['subject']
     $message = $_POST['message'];
     
     $mailTo = "gavinmwong@gmail.com";\n
@@ -22,4 +22,3 @@ if (isset($_POST['submit'])) {
 
     
         
-?>
